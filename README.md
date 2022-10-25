@@ -3,7 +3,8 @@
 git clone https://github.com/ucsd-cse15l-f22/skill-demo1
 
 cd skill-demo1
-
+```
+```
 git clone https://github.com/ucsd-cse15l-f22/skill-demo1; cd skill-demo1
 ```
 
@@ -12,7 +13,8 @@ git clone https://github.com/ucsd-cse15l-f22/skill-demo1; cd skill-demo1
 javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
 
 java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore TestDocSearch
-
+```
+```
 javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java; java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore TestDocSearch
 ```
 
@@ -23,7 +25,8 @@ javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java; java -cp ".
 ```
 javac DocSearchServer.java Server.java
 java DocSearchServer 4555
-
+```
+```
 javac DocSearchServer.java Server.java; java DocSearchServer 4555
 ```
 
@@ -35,16 +38,18 @@ http://localhost:4555/search?q=science
 
 ---
 6. scp into remote then run programs
-```
-scp <filenames> username@ieng6.ucsd.edu:~/
 
+`scp <filenames> username@ieng6.ucsd.edu:~/`
+```
 scp DocSearchServer.java Server.java cs15lfa22cf@ieng6.ucsd.edu:~/
 
 ssh cs15lfa22cf@ieng6.ucsd.edu "javac DocSearchServer.java Server.java; java DocSearchServer 4555"
-
+```
+```
 scp DocSearchServer.java Server.java cs15lfa22cf@ieng6.ucsd.edu:~/; ssh cs15lfa22cf@ieng6.ucsd.edu "javac DocSearchServer.java Server.java; java DocSearchServer 4555"
-
+```
 ALTERNATIVE
+```
 ssh cs15lfa22cf@ieng6.ucsd.edu "git clone https://github.com/ucsd-cse15l-f22/skill-demo1"; scp DocSearchServer.java Server.java cs15lfa22cf@ieng6.ucsd.edu:~/skill-demo1/; ssh cs15lfa22cf@ieng6.ucsd.edu "cd skill-demo1; javac DocSearchServer.java Server.java; java DocSearchServer 4555"
 ```
 
@@ -79,7 +84,8 @@ Recompile
 ```
 javac DocSearchServer.java Server.java
 java DocSearchServer 4555
-
+```
+```
 javac DocSearchServer.java Server.java; java DocSearchServer 4555
 ```
 
