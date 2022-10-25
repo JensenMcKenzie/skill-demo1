@@ -43,14 +43,14 @@ http://localhost:4555/search?q=science
 ```
 scp DocSearchServer.java Server.java cs15lfa22cf@ieng6.ucsd.edu:~/
 
-ssh cs15lfa22cf@ieng6.ucsd.edu "javac DocSearchServer.java Server.java; java DocSearchServer 4555"
+ssh cs15lfa22cf@ieng6.ucsd.edu "javac DocSearchServer.java Server.java; java DocSearchServer 4333"
 ```
 ```
-scp DocSearchServer.java Server.java cs15lfa22cf@ieng6.ucsd.edu:~/; ssh cs15lfa22cf@ieng6.ucsd.edu "javac DocSearchServer.java Server.java; java DocSearchServer 4555"
+scp DocSearchServer.java Server.java cs15lfa22cf@ieng6.ucsd.edu:~/; ssh cs15lfa22cf@ieng6.ucsd.edu "javac DocSearchServer.java Server.java; java DocSearchServer 4333"
 ```
 ALTERNATIVE
 ```
-ssh cs15lfa22cf@ieng6.ucsd.edu "git clone https://github.com/ucsd-cse15l-f22/skill-demo1"; scp DocSearchServer.java Server.java cs15lfa22cf@ieng6.ucsd.edu:~/skill-demo1/; ssh cs15lfa22cf@ieng6.ucsd.edu "cd skill-demo1; javac DocSearchServer.java Server.java; java DocSearchServer 4555"
+ssh cs15lfa22cf@ieng6.ucsd.edu "git clone https://github.com/ucsd-cse15l-f22/skill-demo1"; scp DocSearchServer.java Server.java cs15lfa22cf@ieng6.ucsd.edu:~/skill-demo1/; ssh cs15lfa22cf@ieng6.ucsd.edu "cd skill-demo1; javac DocSearchServer.java Server.java; java DocSearchServer 4333"
 ```
 
 Test all 3 computers
@@ -61,19 +61,19 @@ May have to ssh into remote and git clone the original link
 
 7. Type addresses into local host
 
-http://ieng6-201.ucsd.edu:4556/
+http://ieng6-201.ucsd.edu:4333/
 
-http://ieng6-202.ucsd.edu:4556/
+http://ieng6-202.ucsd.edu:4333/
 
-http://ieng6-203.ucsd.edu:4556/
+http://ieng6-203.ucsd.edu:4333/
 
 ---
 
-http://ieng6-201.ucsd.edu:4556/search?q=science
+http://ieng6-201.ucsd.edu:4333/search?q=science
 
-http://ieng6-202.ucsd.edu:4556/search?q=science
+http://ieng6-202.ucsd.edu:4333/search?q=science
 
-http://ieng6-203.ucsd.edu:4556/search?q=science
+http://ieng6-203.ucsd.edu:4333/search?q=science
 
 ---
 8. Change local server to filter by file name
@@ -97,18 +97,18 @@ http://localhost:4555/search?q=rr74
 
 9. Put the change into the remote server
 ```
-scp DocSearchServer.java Server.java cs15lfa22cf@ieng6.ucsd.edu:~/skill-demo1/; ssh cs15lfa22cf@ieng6.ucsd.edu "cd skill-demo1; javac DocSearchServer.java Server.java; java DocSearchServer 4557"
+scp DocSearchServer.java Server.java cs15lfa22cf@ieng6.ucsd.edu:~/skill-demo1/; ssh cs15lfa22cf@ieng6.ucsd.edu "cd skill-demo1; javac DocSearchServer.java Server.java; java DocSearchServer 4334"
 ```
-http://ieng6-201.ucsd.edu:4557/
+http://ieng6-201.ucsd.edu:4334/
 
-http://ieng6-202.ucsd.edu:4557/
+http://ieng6-202.ucsd.edu:4334/
 
-http://ieng6-203.ucsd.edu:4557/
+http://ieng6-203.ucsd.edu:4334/
 
 ---
 
-http://ieng6-201.ucsd.edu:4557/search?q=rr74
+http://ieng6-201.ucsd.edu:4334/search?q=rr74
 
-http://ieng6-202.ucsd.edu:4557/search?q=rr74
+http://ieng6-202.ucsd.edu:4334/search?q=rr74
 
-http://ieng6-203.ucsd.edu:4557/search?q=rr74
+http://ieng6-203.ucsd.edu:4334/search?q=rr74
