@@ -5,7 +5,7 @@ git clone https://github.com/ucsd-cse15l-f22/skill-demo1
 cd skill-demo1
 ```
 ```
-git clone https://github.com/ucsd-cse15l-f22/skill-demo1; cd skill-demo1
+git clone https://github.com/ucsd-cse15l-f22/skill-demo1; cd skill-demo1; code .
 ```
 
 2. FOR WINDOWS
