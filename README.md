@@ -55,7 +55,7 @@ scp DocSearchServer.java Server.java cs15lfa22cf@ieng6.ucsd.edu:~/; ssh cs15lfa2
 ```
 ALTERNATIVE
 ```
-ssh cs15lfa22cf@ieng6.ucsd.edu "git clone https://github.com/ucsd-cse15l-f22/skill-demo1"; scp DocSearchServer.java Server.java cs15lfa22cf@ieng6.ucsd.edu:~/skill-demo1/; ssh cs15lfa22cf@ieng6.ucsd.edu "cd skill-demo1; javac DocSearchServer.java Server.java; java DocSearchServer 4333"
+ssh cs15lfa22cf@ieng6.ucsd.edu; git clone https://github.com/ucsd-cse15l-f22/skill-demo1;  ssh cs15lfa22cf@ieng6.ucsd.edu "cd skill-demo1; javac DocSearchServer.java Server.java; java DocSearchServer 4333"
 ```
 
 Test all 3 computers
